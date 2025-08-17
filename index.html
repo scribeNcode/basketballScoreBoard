@@ -2,13 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scoreboard App</title>
+    <link rel="stylesheet" href="./src/style.css">
   </head>
   <body>
-    <div id="app">
-      <h1>Boluwatife</h1>
+    <div class="scoreboard_wrapper">
+      
+        <div class="home_card">
+          <h3>Home</h3>
+          <div class="score_card">
+            <span class="score_number" id="home_score">0</span>
+          </div>
+          <div class="increament_btn_wrapper">
+            <button id="home_card_increaseByOne">+1</button>
+            <button id="home_card_increaseByTwo">+2</button>
+            <button id="home_card_increaseByThree">+3</button>
+          </div>
+        </div>
+        <div class="away_card">
+          <h3>Away</h3>
+          <div class="score_card">
+            <span class="score_number" id="away_score">0</span>
+          </div>
+          <div class="increament_btn_wrapper">
+            <button id="away_card_increaseByOne">+1</button>
+            <button id="away_card_increaseByTwo">+2</button>
+            <button id="away_card_increaseByThree">+3</button>
+          </div>
+        </div>
+    </div>
+    <div id="reset_btn_area">
+      <button id="reset_btn">Reset</button>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>

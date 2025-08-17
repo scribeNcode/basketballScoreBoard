@@ -1,0 +1,82 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body{
+  background-color: red;
+} */
+
+@font-face {
+  font-family: cursedTimer;
+  src: url("/public/fonts/CursedTimer.ttf");
+}
+
+h3{
+  font-family: Verdana;
+  color: #EEEEEE;
+  font-size: 35.9px;
+}
+
+.scoreboard_wrapper{
+  background-color: #1B244A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  width: 575px;
+  height: 70vh;
+  text-align: center;
+  touch-action: manipulation;
+}
+
+
+
+.score_card{
+  width: 155px;
+  height: 120px;
+  background-color: #080001;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.increament_btn_wrapper{
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+
+button{
+  width: 45px;
+  height: 45px;
+  background-color: #1B244A;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  color: #9AABD8;
+  font-family: cursedTimer,"Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.score_number{
+  color: #F94F6D;
+  font-size: 80px;
+  font-family: cursedTimer, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 0;
+}
+
+#reset_btn{
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+#reset_btn_area{
+  background-color: #1B244A;
+  padding: 10px;
+  width: 575px;
+}
+

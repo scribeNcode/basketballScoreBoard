@@ -80,3 +80,52 @@ button{
   width: 575px;
 }
 
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 425px) {
+  .scoreboard_wrapper{
+  margin-top: 0;
+  width: 100vw;
+  height: 80vh;
+}
+
+#reset_btn_area{
+  width: 100vw;
+}
+}
+
+
+@media (max-width: 320px) {
+.score_card{
+  width: 125px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+button{
+  width: 35px;
+  height: 35px;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+
+  
+}
+
+.increament_btn_wrapper{
+  margin-top: 20px;
+  display: flex;
+  gap: 4px;
+}
+
+#reset_btn_area{
+  width: 100vw;
+}
+
+ .scoreboard_wrapper{
+  margin-top: 0;
+  width: 100vw;
+  height: 90vh;
+}
+}

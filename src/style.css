@@ -88,11 +88,12 @@ button{
   .scoreboard_wrapper{
   margin-top: 0;
   width: 100vw;
-  height: 80vh;
+  height: 70vh;
 }
 
 #reset_btn_area{
   width: 100vw;
+  height: 20vh;
 }
 }
 
@@ -121,11 +122,12 @@ button{
 
 #reset_btn_area{
   width: 100vw;
+  height: 30vh;
 }
 
  .scoreboard_wrapper{
   margin-top: 0;
   width: 100vw;
-  height: 90vh;
+  height: 70vh;
 }
 }
